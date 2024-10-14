@@ -32,7 +32,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SideTex:
-        m_Texture: {fileID: 2800000, guid: 112c3d60f148d324f9531e66e9166c99, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TopBottomNormal:
@@ -44,7 +44,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0.03, y: 0}
     - _UpDownNormal:
-        m_Texture: {fileID: 2800000, guid: 112c3d60f148d324f9531e66e9166c99, type: 3}
+        m_Texture: {fileID: 2800000, guid: f06c4d2baa4095846a24150a092fc096, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _UpDownTex:
