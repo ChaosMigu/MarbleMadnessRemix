@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Dreamteck;
+using Dreamteck.Splines;
 
 public class PlayerController : MonoBehaviour
 {
@@ -8,6 +10,8 @@ public class PlayerController : MonoBehaviour
     public float moveSpeed = 10f;
     public float maxVelocity = 5f;
     private Rigidbody playerRigidbody;
+
+    public SplineFollower splineFollower; public SplineComputer splinComputer;
 
     void Start()
     {
